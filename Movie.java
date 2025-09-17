@@ -11,16 +11,8 @@ public class Movie {
 		this.rating = rating;
 	}
 
-	public String getTitle() {
-		return title;
-	}
-
 	public int getDurationMinutes() {
 		return durationMinutes;
-	}
-
-	public double getRating() {
-		return rating;
 	}
 
 	// @Override

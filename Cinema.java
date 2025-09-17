@@ -6,8 +6,8 @@ public class Cinema {
 	private List<Movie> movies = new ArrayList<>();
 	public static int totalMovies = 0; // static counter across all cinemas
 
-  public Cinema() {
-    this.id = ++this.id;
+  public Cinema(int id) {
+    this.id = id;
   }
 
 	public void addMovie(Movie movie) {

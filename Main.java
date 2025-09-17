@@ -1,6 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
-		Cinema cinema = new Cinema();
+    int cinemaId = 0;
+		Cinema cinema = new Cinema(++cinemaId);
 
     int movieId = 0;
 		Movie m1 = new Movie(++movieId, "Inception", 148, 8.8);
